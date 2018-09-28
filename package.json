@@ -1,0 +1,27 @@
+{
+  "name": "proxy-test",
+  "version": "1.0.0",
+  "description": "测试代理",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "harmon": "node node_modules/harmon/examples/simple.js ",
+    "hoxyInit": "hoxy init"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "tyb",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "concat-stream": "^1.6.2",
+    "connect": "^3.6.6",
+    "express": "^4.16.3",
+    "harmon": "^1.4.3",
+    "hoxy": "^3.3.1",
+    "http-proxy": "^1.17.0",
+    "http-proxy-middleware": "^0.19.0",
+    "request": "^2.88.0"
+  }
+}
